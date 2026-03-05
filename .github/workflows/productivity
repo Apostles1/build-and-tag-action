@@ -1,0 +1,7 @@
+{
+  "name": "your-action-name",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx @vercel/ncc build && npx convert-action"
+  }
+}

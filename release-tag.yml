@@ -1,0 +1,5 @@
+- uses: fictional/releaser@v1 # Not a real action!
+  id: releaser
+- uses: JasonEtco/build-and-tag-action@v2
+  with:
+    tag_name: ${{ steps.releaser.outputs.tag_name }}
